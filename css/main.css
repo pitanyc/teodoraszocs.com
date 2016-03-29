@@ -1,0 +1,173 @@
+html,body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	font-size: 100%;
+	color: #eeeeee;
+	background: #121212;
+}
+
+/* Header */
+#header {
+	border-bottom: 1px solid #1d1d1d;
+	border-top: 1px solid #1d1d1d;
+	margin-left: auto;
+	margin-right: auto;
+	width: 588px;
+	height: 62px;
+}
+
+#header ul, #header ul li {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	float: left;
+}
+
+#header ul li a {
+	display: block;
+	padding: 20px;
+	font-size: 18px;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #eeeeee;
+	border-right: 1px solid #1d1d1d;
+}
+
+#header ul li a:hover, #header ul li.activelink a {
+	background: #333333;
+	color: #ffffff;
+}
+
+/* Content */
+#content {
+	background: #252525;
+	border: 1px solid #333333;
+}
+
+/* ----------  this is the style of the left text  --------- */
+.leftDiv {
+	float: left;
+	width: 360px;
+	margin: 2% 0% 2% 14%;
+	/* border: 1px solid red; */
+}
+
+/* ----------  this is the style of the name  --------- */
+.name {
+	color: #2eb8e6;
+	font-family: 'Impact', 'Charcoal', sans-serif;
+	font-size: 40px;
+	margin: 70px 0px 60px 0px;
+	float: right;
+}
+
+/* ----------  this is the style of the job (physician, pianist...)  --------- */
+.job {
+	/*color: #aaaaaa;*/
+	color: #ffffaa;
+	float: right;
+	margin: 0px 0px 10px 0px;
+}
+
+/* ----------  this is the style of the left page titles  --------- */
+.title {
+	margin: 20px 0px 60px 0px;
+	color: #2eb8e6;
+	font-family: 'Lato', sans-serif;
+	float: left;
+}
+
+/* ----------  this is the style of the img on the right side  --------- */
+.rightImg {
+	float: right;
+	width: 480px;
+	height: 450px;
+	margin: 2% 14% 2% 2%;
+	border: 1px solid #333333;
+}
+
+/* ----------  this is the style of the paragraphs on the left  --------- */
+p {
+	color: #ffffaa;
+	position: absolute;
+	margin: 80px 0px 0px 0px;
+	padding: 0;
+	width: 400px;
+	text-align: justify;
+}
+
+/* ----------  this is the style of links on the left  --------- */
+p a {
+	color: #eeeeee;
+}
+
+/* ----------  controls the style of individual songs --------- */
+iframe.song {
+	width: 180px;
+	height: 180px;
+	margin: 0px 10px 10px 0px;
+	border: 1px solid #333333;
+}
+
+/* ----------  the following 3 fields control the look&feel of the fake table  --------- */
+.pseudoTable {
+	padding: 0;
+	border: 0;
+	font-size: 14px;
+	margin: 0px 0px 10px 0px;
+}
+
+.pseudoTable label {
+	font-weight: bold;
+	font-family: Tahoma,Arial,sans-serif;
+	float: left;
+	color: #eeeeee;
+}
+
+.pseudoTable span.value {
+	float: right; 
+	width: 60%;
+	color: #ffffaa;
+}
+
+/* Footer */
+#footer {
+	border-top: 1px solid #1d1d1d;
+	color: #999999;
+	padding-top: 20px;
+	height: 60px;
+	width: 800px;
+	margin: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Copyright */
+#footer span {
+	font-size: 14px;
+	float: left;
+}
+
+/* Footer links */
+#footer ul, #footer ul li {
+	list-style: none;
+	margin-right: 10px;
+	padding: 0;
+	float: right;
+} 
+
+#footer ul li a {
+	color: #999999;
+	text-decoration: none;
+	text-transform: uppercase;
+} 
+
+#footer ul li a:hover, #footer ul li.activelink a {
+	color: #eeeeee;
+	text-decoration: none;
+}
