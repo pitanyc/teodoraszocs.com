@@ -1,6 +1,6 @@
 # teodoraszocs.com
 
-Source of personal website.
+Personal website.
 
 ## Creator
 
